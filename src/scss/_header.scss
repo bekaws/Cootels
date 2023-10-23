@@ -1,0 +1,46 @@
+.header{
+    padding: 30px 0px;
+    
+    & .nav{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        &__titles{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            &-subtitle{
+                color: #192252;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            
+        }
+
+        &__btn{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            border-radius: 4px;
+            background: #0E1734;
+
+            padding: 14px 16px;
+        }
+
+        
+    }
+
+}
+
+
